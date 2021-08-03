@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Private</cacheControl>
+    <contentType>text/css</contentType>
+    <description>This is part of the In-Form Sessions &amp; Actions functionality. It was included in v3.0. It contains a CSS file that is referenced throughout the S&amp;A functionality.</description>
+</StaticResource>

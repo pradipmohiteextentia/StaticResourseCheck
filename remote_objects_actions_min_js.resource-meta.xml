@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>text/javascript</contentType>
+    <description>JavaScript for creating actions. Minified version of remote_objects_actions_js. Minified using Google Closure with &#39;whitespace only&#39; optimisation.</description>
+</StaticResource>

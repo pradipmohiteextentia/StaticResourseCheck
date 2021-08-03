@@ -1,0 +1,170 @@
+body {
+    font: normal 100% "ProximaNovaSoft-Regular", Calibri, 
+                 "Gill Sans", "Gill Sans MT", Candara, Segoe, "Segoe UI", 
+                 Arial, sans-serif; 
+    background-color: #FFFFFF;
+}
+
+#chart-component-container {
+    width: 95%;
+    display: none;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+}
+
+#chart {
+    width: 75%;
+    float: left;
+}
+
+#chart-legend-container {
+    width: 20%;
+    float: right;
+    margin: 5% auto;
+}
+
+#chart-legend-items {
+    display: block;
+}
+
+.chart-legend-item {
+    margin: 3%;
+    cursor: pointer;
+}
+
+.chart-legend-button {
+    min-width: 25%; 
+    display: inline-block; 
+    width: 25%; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.chart-legend-label {
+    display: inline-block;
+}
+
+#progress-bar {
+    margin-top: 7.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#progress-bar-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+
+#chart-error-container {
+    width: 50%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 3%;
+    border: red solid 0.1em;
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+#chart-error-text {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+#chart-error-message {
+    text-align: center;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-size: 0.85em;
+}
+ 
+#star-help-container {
+    float: right;
+    text-align: center;
+    display: block;
+    width: 100%;
+    display: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#starHelpLink {
+    cursor: pointer;
+    display: block;
+}
+
+#star-help {
+    width: 90%;
+    border: #bce8f1 solid 0.1em;
+    color: #31708f;
+    background-color: #d9edf7;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    /*margin-bottom: 1em;*/
+    display: none; 
+}
+
+@media screen and (max-width: 768px) { /* 768 = iPad in Portrait */
+
+    /* stacks the menu on top of the legend */
+
+    #chart {
+        width: 95%;
+    }
+    
+    #chart-legend-container {
+        width: 95%;
+        margin-left: 5%;
+        margin-top: 2.5%;
+    }   
+
+    .chart-legend-items {
+    }  
+
+    .chart-legend-item {
+        display: inline-block;
+        float: left;
+        width: 17%;
+    }
+
+    .chart-legend-button {
+        float: left;
+        width: 8%;
+        max-width: 8%;
+        margin-left: 3%;
+        margin-right: 1%;
+    }
+
+    .chart-legend-label {
+        font-size: 0.75em;
+    }
+
+    #progress-bar {
+        margin-top: 25%;
+    }
+
+}
+
+@media screen and (max-width: 414px) { /* 414 = iPhone 6+ and lower in Portrait */
+    .chart-legend-item {
+        width: 38%;
+    }
+    
+    .chart-legend-label {
+        font-size: 0.75em;
+    }
+
+    #chart-error-text {
+        font-size: 0.65em;
+    }
+
+    #chart-error-message {
+        font-size: 0.55em;
+    }
+
+}
