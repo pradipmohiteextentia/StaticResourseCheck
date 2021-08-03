@@ -1,0 +1,611 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Salesforce Sans';
+    font-weight: normal;
+    font-style: normal;
+    background: #f6f6f6;
+}
+body .uiContainerManager {
+    position: static;
+}
+.cCenterPanel {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100% !important;
+}
+.cb-section_row {
+    min-height: 100% !important;
+    height: 100%;
+    width: 100%;
+}
+.cb-section_column {
+    padding: 0 !important;
+    height: 100%;
+}
+.siteforceStarterBody,
+.ui-widget,
+.forceCommunitySection,
+.siteforceDynamicLayout {
+    height: 100%;
+}
+.siteforceContentArea > div,
+.cb-section_column > div {
+    height: 100%;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Salesforce Sans';
+}
+/* SalesforceSans font family css start */
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-Semibold.woff') format('woff'),
+        url('fonts/SalesforceSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-Bold.woff') format('woff'),
+        url('fonts/SalesforceSans-Book.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-ThinItalic.woff') format('woff'),
+        url('fonts/SalesforceSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-Italic.woff') format('woff'),
+        url('fonts/SalesforceSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-Regular.woff') format('woff'),
+        url('fonts/SalesforceSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-BoldItalic.woff') format('woff'),
+        url('fonts/SalesforceSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-Thin.woff') format('woff'),
+        url('fonts/SalesforceSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-Light.woff') format('woff'),
+        url('fonts/SalesforceSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans Book';
+    src: url('fonts/SalesforceSans-Book.woff') format('woff'),
+        url('fonts/SalesforceSans-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Salesforce Sans';
+    src: url('fonts/SalesforceSans-LightItalic.woff') format('woff'),
+        url('fonts/SalesforceSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+/* SalesforceSans font family css end */
+
+/* button custom style */
+.slds-button {
+    color: #e89600;
+    text-align: center;
+}
+.slds-button_brand, .slds-button--brand {
+    background-color: #e89600; 
+    border: 1px solid #e89600;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+.slds-button_stretch .slds-button {
+    width: 100%;
+}
+.slds-button_outline-brand {
+    color: #e89600;
+    border: 1px solid #e89600;
+    text-align: center;
+    font-weight: bold;
+}
+.siteforceContentArea .comm-layout-column:not(:empty) {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.siteforceStarterBody .cCenterPanel {
+    margin: 0;
+    padding: 0;
+}
+.slds-button_brand:hover, .slds-button_brand:focus, .slds-button--brand:hover, .slds-button--brand:focus, .slds-button_outline-brand:hover, .slds-button_outline-brand:focus {
+    background-color: #e89600;
+    color: #ffffff;
+    border: 1px solid #e89600;
+}
+in_form-my-inform-home, in_form-my-inform-router, c-my-inform-rout.activeClass, c-my-inform-home, c-my-inform-profile, c-my-inform-safety, c-my-inform-privacy, c-my-inform-mood, c-my-inform-feedback, c-my-inform-help {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* login page section default class hide */
+.slds-col--padded.comm-content-header.comm-layout-column, .slds-col--padded.comm-content-footer.comm-layout-column {
+    display: none;
+}
+.slds-col--padded.contentRegion.comm-layout-column > div, .siteforceSldsOneColLayout.siteforceContentArea {
+    height: 100%;
+}
+
+/* added for button cursor pointer */
+.slds-icon_container, .slds-icon__container {
+    cursor: pointer;
+}
+.slds-modal__close {
+    top: 0;
+    right: 0;
+}
+.slds-modal__close lightning-icon svg {
+    height: 1rem;
+    width: 1rem;
+}
+.emoji-active lightning-icon svg {
+    fill: rgb(75, 202, 129);
+}
+
+/* main page section */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 0;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1170px;
+}
+.container-login {
+    height: calc(100% - 5rem);
+    justify-content: center;
+}
+.height-100 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.page-card {
+    border-radius: .5rem;
+    box-shadow: 0 0 8px 0 #dcdcdc;
+    background: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0.8rem 1rem;
+    width: 100%;
+}
+.page-card h1 {
+    align-items: center;
+    border-bottom: 2px solid #DDDBDA;
+    color: #3e3e3c;
+    display: flex;
+    font-size: 1.3125rem;
+    line-height: 1.3125rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 6rem;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.custom-tabset .slds-tabs_default {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.custom-tabset .slds-tabs_default__item.slds-is-active::after {
+    background-color: #e89600;
+}
+/* .custom-tabset .slds-tabs_default__item {
+    padding: 0 0.15rem;
+} */
+.custom-tabset .slds-tabs_default__link {
+    color: #717171;
+    font-size: 1rem;
+}
+.custom-tabset .slds-tabs_default__link {
+    color: #717171;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.custom-tabset .slds-tabs_default__item.slds-is-active .slds-tabs_default__link {
+    color: #3e3e3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+.custom-tabset lightning-tab-bar li.slds-tabs_default__overflow-button {
+    display: none;
+}
+.custom-tabset .slds-tabs_default__nav {
+    justify-content: space-around;
+    border-bottom: 2px solid #dddbda;
+    background: #fbfbfb;
+}
+.my-settings-outer .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox_faux, .my-privacy-outer .slds-form-element .slds-checkbox [type="checkbox"] + .slds-checkbox__label .slds-checkbox_faux  {
+    height: 1.5rem;
+    margin-right: 0;
+    width: 1.5rem;
+}
+/* checkbox selected css */
+.my-settings-outer .slds-form-element .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux {
+    background: #0070d2;
+}
+.my-settings-outer .slds-form-element .slds-checkbox [type="checkbox"]:checked + .slds-checkbox__label .slds-checkbox_faux:after {
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+}
+.custom-checkbox-group .slds-form-element__control .slds-checkbox {
+    margin-bottom: 1.5rem;
+}
+.custom-checkbox-group .slds-checkbox .slds-checkbox__label .slds-form-element__label {
+    color: #717171;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+/* checkbox selected css */
+
+/*change password popup */
+.pass-pop-outer .slds-modal__container {
+    max-width: 30rem;
+}
+.pass-pop-outer .slds-modal__header {
+    color: #080707;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.pass-pop-outer .slds-modal__content {
+    border-radius: 0.2rem;
+}
+.pass-pop-outer .pass-pop-container label {
+    color: #080707;
+    display: flex;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+/*change password popup */
+.my-doc-outer .btn-link .slds-button {
+    background: none;
+    border: 0;
+    color: #717171;
+    font-size: 1rem;
+}
+.my-doc-outer .btn-link-icon .slds-button {
+    background: #ffffff;
+    border: 1px solid #dddbda;
+    color: #717171;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+.mood-card-footer .slds-button, .footer-btn-outer .slds-button {
+    min-width: 7rem;
+    padding: 0.3rem 1rem;
+}
+.slds-modal__footer.modal-custom-footer {
+    padding: 0 !important;
+    border: 0;
+}
+.myhelp-card .slds-card, .myfeedback-card .slds-card, .myprivacy-card .slds-card {
+    box-shadow: 0 0 8px 0 #dcdcdc;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    border: 0;
+}
+.myhelp-card .slds-card__body, .myfeedback-card .slds-card__body, .myprivacy-card .slds-card__body {
+    padding-bottom: 0.5rem;
+}
+
+/* mymood modal */
+c-my-inform-user-feeling {
+    width: 100%;
+}
+
+/* pages scroll */
+.page-scroll {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 0 0.5rem;
+    height: 100%;
+}
+
+/* form element */
+.slds-textarea {
+    font-size: 0.875rem;
+    min-height: 6.25rem;
+    padding: 1rem;
+    resize: none;
+    color: #3e3e3c;
+    font-weight: normal;
+}
+.slds-form-element__label, .slds-form-element {
+    margin-bottom: 0.5rem;
+    color: #3e3e3c;
+}
+.slds-combobox__form-element  lightning-icon svg {
+    fill: #586e93
+}
+.feedback-radio-outer .slds-form-element__control {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feedback-radio-outer .slds-form-element__control span.slds-radio {
+    min-width: 47%;
+    padding-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+.feedback-radio-outer .slds-form-element__control span.slds-radio .slds-form-element__label {
+    color:#717171;
+    font-size: 1.0625rem;
+    font-weight: normal;
+}
+.feedback-radio-outer {
+    min-width: 45%;
+    margin-bottom: 1.5rem;
+}
+
+/* added for default notification icon and contianer css start*/
+.default-notifications {
+    position: absolute;
+    right: 1.2rem;
+    top: 0.8rem;
+}
+.default-notifications .slds-global-actions__notifications lightning-icon svg {
+    color: #ffffff;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.uiPanel--notificationsPanel {
+    margin-top: 4.5rem;
+    border: 1px solid #e1e2e3;
+}
+.uiPanel--notificationsPanel .container {
+    padding: 0;
+}
+.unsNotificationsListRow.notification-row {
+    margin: 1rem;
+    box-shadow: 0 0 8px 0 #dcdcdc;
+    border-radius: .5rem;
+    border-color: transparent !important;
+    /*pointer-events: none;*/ /*Notification click event enable*/
+}
+.unsNotificationsListRow.notification-read {
+    border: 0;
+    /*pointer-events: none;*/ /*Notification click event enable*/
+}
+.unsNotificationsListRow.notification-unread {
+    border: 1px solid #daa8cc !important;
+    background-color: transparent !important;
+    pointer-events: inherit;
+    /*pointer-events: none;*/ /*Notification click event enable*/
+}
+.unsNotificationsListRow .notification-text {
+    margin: 0 !important;
+}
+.unsNotificationsListRow .notification-age {
+    color: #717171;
+    font-size: .625rem;
+}
+.unsNotificationsListRow .assistive-unread-mark {
+    color: #daa8cc !important;
+}
+.unsNotificationsPanel>div {
+    width: 20rem !important;
+}
+.unsNotificationsListRow .notification-icon {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    border-radius: 50% !important;
+}
+/* added for default notification icon and contianer css end */
+
+/* custom svg icon background classes */
+.my-home {
+    background-color: #ed9c33;
+}
+.my-safety {
+    background-color: #3d948b;
+}
+.my-privacy {
+    background-color: #6bb2ce;
+}
+.my-mood-diary {
+    background-color: #e5516c;
+}
+.my-profile {
+    background-color: #d86899;
+}
+.my-feedback {
+    background-color: #984981;
+}
+.my-settings {
+    background-color: #737373;
+}
+/* page heading icon */
+.heading-card-icon {
+    align-items: center;
+    border-radius: 50%;
+    display: inline-flex;
+    flex: 0 0 2rem;
+    height: 2rem;
+    justify-content: center;
+    margin-right: 0.5rem;
+    padding: .5rem;
+    width: 2rem;
+    z-index: 1;
+}
+.pass-icon-outer {
+    position: relative;
+}
+.custom-pass-icon {
+    position: absolute;
+    right: 0;
+    top: 1.8rem;
+} 
+.custom-pass-icon button.slds-button.slds-button_icon.slds-button_icon-border {
+    border: 0;
+    box-shadow: none;
+    outline: none;
+}
+img {
+    max-width: 100%;
+    height: 100%;
+}
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+.custom-menu-item img {
+    max-width: 100%;
+    height: 100%;
+}
+.slds-border_top, .slds-border--top { border-top: 0;}
+@media screen 
+  and (min-device-width: 1200px)
+  and (max-device-width: 1930px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    /* custom scrollbar css */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+        box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+        border-radius: 1rem;
+        outline: 0;
+        border: 0;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        border-radius: 1rem;
+        outline: 0;
+        border: 0;
+    }
+    /* ::-webkit-scrollbar-thumb:window-inactive {
+        background: transparent; 
+    } */
+    /* custom scrollbar css */
+}
+@media screen and (max-width: 1023px) {
+    body, .custom-tabset .slds-tabs_default__nav {
+        background: #ffffff;
+    }
+    .page-card {
+        box-shadow: none;
+        padding: 0;
+        background: #ffffff;
+    }
+    .page-card h1 {
+        padding-left: 1rem;
+    }
+    .custom-checkbox-group .slds-form-element__control .slds-checkbox label.slds-checkbox__label {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-right: 1.5rem;
+    }
+    .custom-checkbox-group .slds-form-element__control .slds-checkbox .slds-checkbox__label .slds-form-element__label {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .feedback-radio-outer .slds-form-element__control span.slds-radio {
+        min-width: auto;
+        margin-bottom: .5rem;
+    }
+    .heading-card-icon {
+        flex: 0 0 1.625rem;
+        height: 1.625rem;
+        padding: .3rem;
+        width: 1.625rem;
+    }
+    .feedback-radio-outer .slds-form-element__control span.slds-radio .slds-form-element__label {
+        font-size: 0.875rem;
+        font-weight: normal;
+    }
+    .feedback-radio-outer .slds-form-element__control span.slds-radio {
+        display: block;
+        width: 100%;
+    }
+    .my-doc-outer .btn-link-icon .slds-button {
+        padding: 0 0.5rem;
+    }
+}
+@media screen and (max-width: 390px) {
+    .custom-tabset lightning-tab-bar li.slds-tabs_default__overflow-button {
+        display: none;
+    }
+    .custom-tabset .slds-tabs_default__link {
+        font-size: 0.9rem;
+    }
+    .custom-tabset .slds-tabs_default__nav {
+        justify-content: space-between;
+    }
+    .slds-tabs_default__item, .slds-tabs--default__item {
+        padding: 0px 0.5rem;
+    }
+}
+@media screen and (max-width: 359px) {
+    .custom-tabset .slds-tabs_default__link {
+        font-size: 0.85rem;
+    }
+    .slds-tabs_default__item, .slds-tabs--default__item {
+        padding: 0px 0.3rem;
+    }
+}
+@media screen and (max-width: 319px) {
+    .custom-tabset lightning-tab-bar li.slds-tabs_default__overflow-button {
+        display: inline-flex;
+    }
+}

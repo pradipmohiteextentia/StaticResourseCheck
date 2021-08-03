@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'homeless-icons';
+  src:  url('fonts/homeless-icons.eot?iimwsa');
+  src:  url('fonts/homeless-icons.eot?iimwsa#iefix') format('embedded-opentype'),
+    url('fonts/homeless-icons.ttf?iimwsa') format('truetype'),
+    url('fonts/homeless-icons.woff?iimwsa') format('woff'),
+    url('fonts/homeless-icons.svg?iimwsa#homeless-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'homeless-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-error:before {
+  content: "\e900";
+}
+.icon-sort:before {
+  content: "\e901";
+}
+
+.icon-add:before {
+  content: "\e91d";
+}
+.icon-adduser:before {
+  content: "\e91e";
+}
+.icon-arrowdown:before {
+  content: "\e91f";
+}
+.icon-arrowup:before {
+  content: "\e920";
+}
+.icon-check:before {
+  content: "\e921";
+}
+.icon-chevronleft:before {
+  content: "\e922";
+}
+.icon-chevronright:before {
+  content: "\e923";
+}
+.icon-clear:before {
+  content: "\e924";
+}
+.icon-close:before {
+  content: "\e925";
+}
+.icon-groups:before {
+  content: "\e926";
+}
+.icon-question_mark:before {
+  content: "\e927";
+}
+.icon-search:before {
+  content: "\e928";
+}
+.icon-switch:before {
+  content: "\e929";
+}
