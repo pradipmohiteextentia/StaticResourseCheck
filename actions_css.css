@@ -1,0 +1,151 @@
+    
+    .glyphicon {
+        padding: 1px 1px;
+        font-size: 85%;
+        line-height: 0.675; 
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    .glyphicon-exclamation-sign {
+        color: red;
+    }
+
+    .glyphicon-remove {
+        color: red;
+    }
+
+    .glyphicon-ok {
+        color: green;    }
+
+    .glyphicon-arrow-down {
+        color: #337ab7;
+        cursor: pointer;
+    }
+
+    .glyphicon-arrow-up {
+        color: #337ab7;
+        cursor: pointer;
+    }
+
+    .glyphicon-th-list {
+        color: blue;
+    }
+
+    .glyph-click {
+        text-align: center;
+    }
+
+    .alert-msg {
+        margin-right: 1em;
+    }
+
+    .container-min-20em {
+        min-height: 20em;
+        margin-bottom: 1em;
+    }
+
+    .app-container {
+        min-height: 80em;
+        margin-bottom: 1em;
+    }
+
+    #actions-container {
+        display: none;
+    }
+
+    #errors-container {
+        display: none;
+    }
+
+    #filter-container {
+        display: none;
+    }
+
+    #clients-container {
+        display: none;
+    }
+
+    #added-clients-container {
+        display: none;
+    }
+
+    #progress-bar {
+        display: none;
+    }
+
+    #progress-data {
+        display: none;
+        margin-top: 2em;
+    }
+
+    .client-row-added {
+        color: #C0C0C0  !important;
+    }
+
+    .client-column-header {
+        float: left !important;
+        display: inline;
+    }
+    .client-sort-button-container {
+        display: inline;
+        float: right !important;
+    }    
+
+    #find-spinner-img {
+        height: 16px;
+        width: 16px;
+        visibility: hidden;
+    }
+
+    #data-epicycle {
+        display: none;
+    }
+
+    .consoleLogger {
+        color: #FFFFFF;
+    }
+
+    td {
+        font-size: 85%;
+    }
+
+    th {
+        font-size: 85%;
+        vertical-align: text-top;
+    }
+
+    .client-idx {
+        text-align: center;
+    }
+
+    .glyph-explain {
+        text-align: center;
+        font-size: 0.85em;
+        display: block;
+    }
+
+    #createActionsHelpLink{
+        cursor: pointer;
+    }
+
+    #help-container {
+        display: none;
+    }
+
+    #help-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (max-width: 768px) { /* 768 = iPad in Portrait */
+        .client-column-header {
+            display: block;
+        }
+
+        .client-sort-button-container {
+            display: block;
+            float: left;
+        }
+    }
